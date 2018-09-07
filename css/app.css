@@ -1,0 +1,141 @@
+/***************************************************************************************/
+/**************************************  Style  ****************************************/
+/***************************************************************************************/
+
+/**************  Basics *****************/
+html, body{ width: 100%; height: 100%; background-color: #DDD; color: #003;}
+h1, h2, h3, h4, h5, h6, a, textarea, p, label, button,
+input[type="text"], 
+input[type="password"], 
+input[type="phone"], 
+input[type="email"], 
+input[type="submit"]{ 
+	font-family: 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif; 
+}
+/**************  End Basics *****************/
+
+.sec, .sec1{ margin-bottom: 10px; color: #000; margin-top: 40px;}
+.sec1{ padding: 20px;}
+
+/********************************************/
+/****************  Login ********************/
+/********************************************/
+
+#login form, #slogin form{ margin-top: 80px;}
+#login form, #login-form{ 
+	border: 2px solid #eea236; 
+	background-color: #eea236; 
+	border-radius: 30px; padding: 50px 0px; 
+}
+#login-form, #slogin-form{ border-radius: 20px; margin-left: 370px; width: 450px; padding: 10px;}
+#login form input, #slogin form input{ width: 400px;}
+#login form input[type="submit"]{ background-color: #eea236; color: #fff; border: 2px solid #fff;}
+#login form input[type="submit"]:hover{ background-color: #a76e1d; color: #fff;}
+
+/********************************************/
+/********************************************/
+#slogin form, #slogin-form{ 
+	border: 2px solid #d12; 
+	background-color: #d12; 
+	border-radius: 30px; padding: 50px 0px; 
+}
+#slogin form input[type="submit"]{ background-color: #d12; color: #fff; border: 2px solid #fff;}
+#slogin form input[type="submit"]:hover{ background-color: rgb(179, 0, 15); color: #fff;}
+
+/********************************************/
+/***************** Home *********************/
+/********************************************/
+
+.navbar {min-height: 60px;}
+.navbar-inverse .navbar-nav > li > a {color: #BBB; padding-top: 20px ;padding-bottom: 15px; font-size: 16px; font-weight: bold;}
+.navbar-inverse .navbar-nav > li > a:hover{ color: #d12;}
+.navbar-inverse .navbar-brand {color: #d12; font-size: 30px; line-height: 35px; padding-left: 70px}
+.navbar-inverse .navbar-brand:hover{ color: #9c0e1a;}
+.navbar-inverse .navbar-brand span{ color: #fff;}
+.navbar-toggle {margin-top: 18px;}
+
+#usernamelogo{ color: #fff; padding-top: 18px;}
+#logo{ color: #d12; font-weight: bold; font-size: 20px;}
+#usernamelogo button{ color: #fff; font-weight: bold; margin-left: 10px; background-color: #d12;}
+#usernamelogo button span{ color: #fff;}
+
+#aside button[name="download"]{ 
+	width: 150px; float: right; 
+	font-size: 15px; margin-right: 10px; 
+	margin-bottom: 10px; font-weight: bold;
+}
+
+/********************************************/
+/********************************************/
+
+#sidebar{ background-color: #000; height: 500px; margin-top: 20px; overflow: hidden;}
+#aside{ padding: 10px; color: #fff;}
+#aside ul li a{
+	background-color: #d12;
+	margin-top: 20px; width: 250px; 
+	margin-bottom: 5px;
+	color: #fff;
+}
+#aside ul li a:hover{ background-color: #9c0e1a; color: #fff;}
+#aside p{ padding-left: 15px;}
+
+/********************************************/
+/********************************************/
+
+.main-page .m1{ background-color: #fff; color: #000;}
+#div1{
+	background-color: #fff; padding-left: 20px; padding-bottom: 10px; border-radius: 25px; max-width: 820px; 
+	margin: 30px 0px 10px 30px; color: #000;
+}
+#div1 ol{ padding-left: 40px; padding-top: 10px;}
+#div1 ol li{ color: #d12; font-weight: bold; font-size: 25px;}
+
+/********************************************/
+/***************** Contact us ***************/
+/********************************************/
+
+#div2{ background-color: #fff; height: 510px; width: 900px}
+#aside #div2{ padding: 30px;}
+#aside #div2 form{ background-color: #fff; padding: 20px 0px 20px 40px; border-radius: 30px;}
+#aside #div2 form input{ width: 500px; font-size: 15px; height: 40px;}
+
+/********************************************/
+/****************** student *****************/
+/********************************************/
+
+#div1 table th{ font-size: 20px; font-weight: bolder; color: #d12;}
+.tdata{ font-size: 17px; font-weight: bold;}
+#hightlight{ background-color: #d12; color: #fff;}
+
+/********************************************/
+/******************* Admin ******************/
+/********************************************/
+
+.admin-information{ background-color: #ddd; border-radius: 50px; margin-top: 20px;}
+
+div#control-board{ margin: 15px;}
+div#control-board > ul > li > span{ font-size: 15px; font-weight: bold; color: #d12; background-color: #000; padding: 15px; border-radius: 10px}
+div#control-board > ul > li > button{ font-size: 15px; width: 100px; font-weight: bold; }
+
+.sitecontrol{ font-weight: bold; padding: 20px; background-color: #fff; border-radius: 20px;}
+.sitecontrol .col-md-3 { border-radius: 10px; padding: 10px;}
+
+aside a{ display: block; padding-top: 10px; margin: 10px; text-decoration: none;}
+aside a:hover{ text-decoration: none;}
+
+.admin-aboutpage form{ padding: 10px;}
+.admin-aboutpage form input{ width: 350px; font-size: 18px;}
+
+/********************************************/
+/****************** footer ******************/
+/********************************************/
+
+footer{ padding: 15px; text-align: center; background-color: #000; height: 150px;}
+footer .copyright h4{ color: #fff;}
+footer .copyright h4 span{ color: #d12;}
+footer ul li a{ color: #fff; text-decoration: none; font-weight: bold;}
+footer ul li a:hover{ color: #d12;}
+
+/***************************************************************************************/
+/*********************************** End Style  ****************************************/
+/***************************************************************************************/
